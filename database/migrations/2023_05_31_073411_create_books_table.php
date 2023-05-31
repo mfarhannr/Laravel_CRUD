@@ -18,6 +18,8 @@ return new class extends Migration
             $table->date("release");
             $table->foreignId("categories_books_id")->constrained()
                 ->cascadeOnDelete();
+            $table->string("publisher");
+
             $table->timestamps();
         });
     }
