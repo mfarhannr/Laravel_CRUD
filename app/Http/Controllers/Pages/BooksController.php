@@ -20,6 +20,7 @@ class BooksController extends Controller
      */
     public function create()
     {
+
         return view("pages.books.create");
     }
 
