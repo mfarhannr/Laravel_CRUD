@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\ServiceProvider;
 
+$variable = "Hello, Laravel!";
 return [
 
     /*
